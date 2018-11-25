@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:gravity="center"
-        android:text="Contactanos!"
+        android:text="@string/contactanos"
         android:textColor="@color/colorPrimary"
         android:textSize="40sp"
         android:textStyle="bold|italic" />
@@ -27,7 +27,7 @@
         android:id="@+id/textView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nuestros Numeros son:"
+        android:text="@string/nuestros_numeros_son"
         android:textAllCaps="false"
         android:textSize="30dp"
         android:textStyle="bold" />
@@ -69,7 +69,7 @@
         android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Consulta donde nos encontramos"
+        android:text="@string/consulta_donde_nos_encontramos"
         android:textSize="23dp" />
 
     <TextView
@@ -81,6 +81,6 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Abrir Mapas" />
+        android:text="@string/abrir_mapas" />
 
 </LinearLayout>

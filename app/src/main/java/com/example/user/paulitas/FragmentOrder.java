@@ -1,22 +1,21 @@
 package com.example.user.paulitas;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
+import android.support.annotation.Nullable;
+import android.support.v4.app.DialogFragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link FragmentOrder.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link FragmentOrder#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class FragmentOrder extends android.support.v4.app.Fragment {
 
 
@@ -47,5 +46,27 @@ public class FragmentOrder extends android.support.v4.app.Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_fragment_order, container, false);
     }
+
+
+
+
+
+
+    Button btn;
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+         btn = (Button) getView().findViewById(R.id.button);
+
+         btn.setOnClickListener(new View.OnClickListener(){
+             @Override
+             public void onClick(View v) {
+                 Intent intent2 = new Intent (v.getContext(), Mapa.class);
+                 startActivityForResult(intent2, 0);
+             }
+         });
+
+    }
+
+
+
 
 }

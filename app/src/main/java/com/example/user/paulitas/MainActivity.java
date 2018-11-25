@@ -1,5 +1,7 @@
 package com.example.user.paulitas;
 
+import android.content.ClipData;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -34,6 +36,10 @@ public class MainActivity extends AppCompatActivity
       //                  .setAction("Action", null).show();
      //       }
       //  });
+
+
+
+
     Fragment fragment = null;
         if(fragment == null)
         {
@@ -84,11 +90,16 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent intent2 = new Intent (this, AcercaDe.class);
+            startActivityForResult(intent2, 0);
         }
 
         return super.onOptionsItemSelected(item);
     }
+
+
+
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -122,4 +133,9 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
+
+
 }

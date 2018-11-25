@@ -48,7 +48,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
-                            android:text="Torta en forma de cerveza"
+                            android:text="@string/torta_en_forma_de_cerveza"
                             android:textColor="@color/colorPrimary"
                             android:textSize="25dp"
                             android:textStyle="bold|italic" />
@@ -64,7 +64,7 @@
                             android:focusable="false"
                             android:focusableInTouchMode="false"
                             android:inputType="textMultiLine"
-                            android:text="excelente torta de vainilla con una cobertura de fondat" />
+                            android:text="@string/excelente_torta_de_vainilla_con_una_cobertura_de_fondat" />
 
                     </LinearLayout>
 
@@ -101,7 +101,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
-                            android:text="Torta para doctor"
+                            android:text="@string/torta_para_doctor"
                             android:textColor="@color/colorPrimary"
                             android:textSize="25dp"
                             android:textStyle="bold|italic" />
@@ -117,7 +117,7 @@
                             android:focusable="false"
                             android:focusableInTouchMode="false"
                             android:inputType="textMultiLine"
-                            android:text="excelente torta de banano con una cobertura de fondat" />
+                            android:text="@string/excelente_torta_de_banano_con_una_cobertura_de_fondat" />
 
                     </LinearLayout>
 
@@ -154,7 +154,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
-                            android:text="Torta matrimonio"
+                            android:text="@string/torta_matrimonio"
                             android:textColor="@color/colorPrimary"
                             android:textSize="25dp"
                             android:textStyle="bold|italic" />
@@ -170,7 +170,7 @@
                             android:focusable="false"
                             android:focusableInTouchMode="false"
                             android:inputType="textMultiLine"
-                            android:text="Bonita torta de almendras con decoracion de flores" />
+                            android:text="@string/bonita_torta_de_almendras_con_decoracion_de_flores" />
 
                     </LinearLayout>
 
@@ -208,7 +208,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
-                            android:text="Torta para chicas"
+                            android:text="@string/torta_para_chicas"
                             android:textColor="@color/colorPrimary"
                             android:textSize="25dp"
                             android:textStyle="bold|italic" />
@@ -224,7 +224,7 @@
                             android:focusable="false"
                             android:focusableInTouchMode="false"
                             android:inputType="textMultiLine"
-                            android:text="Bonita torta con ganache de chocolate y fondant" />
+                            android:text="@string/bonita_torta_con_ganache_de_chocolate_y_fondant" />
 
                     </LinearLayout>
 
@@ -261,7 +261,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
-                            android:text="Torta para policia"
+                            android:text="@string/torta_para_policia"
                             android:textColor="@color/colorPrimary"
                             android:textSize="25dp"
                             android:textStyle="bold|italic" />
@@ -277,7 +277,7 @@
                             android:focusable="false"
                             android:focusableInTouchMode="false"
                             android:inputType="textMultiLine"
-                            android:text="Detalle de 6 cupcakes con estilo personalizado" />
+                            android:text="@string/detalle_de_6_cupcakes_con_estilo_personalizado" />
 
                     </LinearLayout>
 
@@ -314,7 +314,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15dp"
-                            android:text="Brocheta"
+                            android:text="@string/brocheta"
                             android:textColor="@color/colorPrimary"
                             android:textSize="25dp"
                             android:textStyle="bold|italic" />
@@ -330,7 +330,7 @@
                             android:focusable="false"
                             android:focusableInTouchMode="false"
                             android:inputType="textMultiLine"
-                            android:text="brocheta de masmelo y royal icing" />
+                            android:text="@string/brocheta_de_masmelo_y_royal_icing" />
 
                     </LinearLayout>
 

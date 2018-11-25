@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paulitas</string>
+    <string name="brochetas_dulces">sweet skewer</string>
+    <string name="cupcakes_personalizados">Custom cake</string>
+    <string name="snaks_dulces">sweet snacks</string>
+    <string name="snaks_salados">salt snacks</string>
+    <string name="cualquier_ocasion">cakes for all occasion</string>
+    <string name="tortas_para_cualquier_ocasion">cakes for all occasion</string>
+    <string name="abrir_mapas">open ma</string>
+    <string name="bonita_torta_con_ganache_de_chocolate_y_fondant">chocolate cake and fondant</string>
+    <string name="bonita_torta_de_almendras_con_decoracion_de_flores">almond cake</string>
+    <string name="brocheta">skewer</string>
+    <string name="brocheta_de_masmelo_y_royal_icing">skewer, mashmallow and royal icing</string>
+    <string name="como_ordenar">how to order</string>
+    <string name="consulta_donde_nos_encontramos">where you can find us</string>
+    <string name="contactanos">contact us</string>
+    <string name="detalle_de_6_cupcakes_con_estilo_personalizado">6 cupcakes</string>
+    <string name="tituloDisenioPersonalizado">Costum desing</string>
+    <string name="disenio_person">Costum desing</string>
+    <string name="excelente_torta_de_banano_con_una_cobertura_de_fondat">banana cake and fondant</string>
+    <string name="excelente_torta_de_vainilla_con_una_cobertura_de_fondat">vanilla cake and fondant</string>
+    <string name="nuestros_numeros_son">call us</string>
+    <string name="PantallaPrincipal">Main</string>
+    <string name="productos">Products</string>
+    <string name="action_settings">about us</string>
+    <string name="torta_en_forma_de_cerveza">beer cake</string>
+    <string name="torta_matrimonio">married cake</string>
+    <string name="torta_para_chicas">women cake</string>
+    <string name="torta_para_doctor">doctor cake</string>
+    <string name="torta_para_policia">cop cake</string>
+    <string name="atras">Go back</string>
+</resources>

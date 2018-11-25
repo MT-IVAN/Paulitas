@@ -7,15 +7,15 @@
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_store_black_24dp"
-            android:title="Principal" />
+            android:title="@string/PantallaPrincipal" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_cake_black_24dp"
-            android:title="Productos" />
+            android:title="@string/productos" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_local_grocery_store_black_24dp"
-            android:title="Como ordenar" />
+            android:title="@string/como_ordenar" />
     </group>
 <!--
     <item android:title="Communicate">
