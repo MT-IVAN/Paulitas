@@ -16,11 +16,6 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_local_grocery_store_black_24dp"
             android:title="Como ordenar" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_settings_phone_black_24dp"
-            android:textSize="200dp"
-            android:title="Contactanos!" />
     </group>
 <!--
     <item android:title="Communicate">
